@@ -1,0 +1,128 @@
+body {
+    background-color: rgba(60, 225, 195, 0.545);
+  }
+
+header {
+  height: 10vw;
+  background-color: rgba(60, 225, 195, 1.000);
+  position: fixed;
+  top:0;
+  left: 0;
+  width:100%;
+  z-index: 1000;
+
+}
+
+header > section > img {
+  width: 5vw;
+  height: auto;
+  top: 2.8vw;
+  position: fixed;
+  border-radius: 0.6vw;
+  border-color: wheat;
+}
+
+header > section > article > p {
+  position: fixed;
+  top: 5vw;
+  left: 8vw;
+  
+}
+
+header > section > article > h2 {
+  position: fixed;
+  top: 2vw;
+  left: 7vw;
+
+}
+
+
+header > nav {
+  position: fixed;
+  top: 5vw;
+  right: 2vw;
+}
+
+header > nav > a {
+    text-decoration: none;
+    color: #333;
+    padding-right: 0.6vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+main {
+  height: 45vw;
+  margin-top: 15vw;
+  margin-left: 22vw;
+  margin-right: 11vw;
+  
+}
+
+
+.main-section {
+  display: flex; /* Use flexbox to make the articles side by side */
+  align-items: center;/* Vertically center the content */
+}
+
+
+  
+
+.image-container {
+   padding: 2vw; /* Add padding for spacing */
+  
+}
+.text-container {
+  padding: 20px; /* Add padding for spacing */
+  display: flex;
+  flex-direction: column;
+  
+  margin-bottom: 2.8vw;
+  
+}  
+
+main > section > article > img {
+  width: 20vw; /* Ensure the image doesn't exceed its container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+main > section > article > p {
+  margin: 0; /* Remove default margin for the paragraphs */
+}
+
+
+footer {
+  background-color: rgba(60, 225, 195, 1.000);
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+ 
+}
+
+footer > h3 {
+  display: inline-block;
+  margin-left: 64vw;
+}
+
+
+
+footer > p {
+  text-align: center;
+  margin-bottom: 1.5vw;
+  border-top: 1px solid black;
+  width: 50%;
+  margin: 0 auto;
+  
+}
+
+footer > nav {
+  
+  display: inline-block;
+  position: static;
+
+}
+
+
+footer > nav > a {
+  margin-right: 0.7vw;
+  margin-left: 1.5vw;
+}
+
