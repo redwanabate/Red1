@@ -5,36 +5,38 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="webpagina's">
         <meta name="author" content="Redwan Yesuf Abate">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <meta name="keywords" content="Red1">
         <title>De Eerste pagina's</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
     </head>
 
     <body>
         <header>
-            <section>
-                <img src="image.jpg">
-                <article>
-                    <h2>Redwan Yesuf Abate</h2>
-                    <p>A Software developer student</p>
-
-                </article>
-                
-            </section>
-            <nav>
-                <a href="https://redwanabate.github.io/Red1/" >Home</a>
-                <a href="https://redwanabate.github.io/De-opleiding/" >De Opleiding</a>
-                <a href="https://redwanabate.github.io/Het-beroepenveld/" >Het beroepenveld</a>
-                <a href="https://redwanabate.github.io/Onderzoek-doorgroiemogelijkheden/" >Onderzoek doorgroeimogelijkheden</a>
-            </nav>
-           
-            
-
-        </header>
+            <div class="menu-bar">
+               <img src="pictures/image.jpg">
+               <h2 id="h2">Redwan Yesuf Abate</h2>
+               <p id="parag"> A software developer Student</p>
+    
+               <ul>
+                <li><a href="https://redwanabate.github.io/Red1/">Home</a></li>
+                <li><a href="https://redwanabate.github.io/De-opleiding/">De opleiding <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-menu">
+                        <ul>
+                            <li><a href="https://redwanabate.github.io/Database-SQL/">Database-SQL structureren</a></li>
+                            <li><a href="https://redwanabate.github.io/UI-Prototyping/">UI-Responsive Prototyping</a></li>
+                        </ul>
+                    </div>
+                </li>   
+                <li><a href="https://redwanabate.github.io/Het-beroepenveld/">Het beroepenveld</a></li>
+                <li><a href="https://redwanabate.github.io/Onderzoek-doorgroiemogelijkheden/">Onderzoek door groimogelijkheden</a></li>
+              </ul>
+            </div>
+         </header>
         <main>
             <section class="main-section">
                 <article class="image-container">
-                    <img src="image.jpg" alt="Your Image">
+                    <img src="Pictures/image.jpg" alt="Your Image">
                 </article>
                 <article class="text-container">
                     <h2> Redwan Yesuf Abate</h2>
